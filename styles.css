@@ -27,3 +27,18 @@ section h2 {
     color: aliceblue;
     font-size: 20em;
 }
+
+.circle1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #22e7c0;
+    clip-path: circle(150px at 0 0);
+}
+.circle2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffb62e;
+    clip-path: circle(150px at 100% 100%);
+}
